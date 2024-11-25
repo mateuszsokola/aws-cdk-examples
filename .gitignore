@@ -1,0 +1,28 @@
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+
+# Output of 'npm pack'
+*.tgz
+
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# Serverless directories
+.serverless/
+
+# AWS CDK directories
+.cdk.staging
+cdk.out/
+
+# DynamoDB Local files
+.dynamodb/
+
